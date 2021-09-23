@@ -1,0 +1,226 @@
+{
+  "users": [
+    {
+      "fname": "Priti",
+      "lname": "Rawat",
+      "uname": "priti",
+      "email": "priti@test.com",
+      "password": "priti@123",
+      "contact": "09787654321",
+      "address": "India",
+      "language": "React",
+      "interest": "CRT",
+      "description": "Hi, Priti.",
+      "image": "",
+      "id": 1
+    },
+    {
+      "fname": "Anil",
+      "lname": "Kumar",
+      "uname": "anil",
+      "email": "anil@t.com",
+      "password": "anil@11",
+      "contact": "09787654321",
+      "address": "USA",
+      "language": "React",
+      "interest": "CRT",
+      "description": "Hi, Anil",
+      "image": "",
+      "id": 2
+    }
+  ],
+  "admin": [
+    {
+      "id": 1,
+      "fname": "Tanusi",
+      "lname": "Rawat",
+      "uname": "tanusi",
+      "email": "tanusi@g.com",
+      "password": "tanusi@11",
+      "contact": "75456774",
+      "address": "Ind",
+      "description": "Hi, Tanusi",
+      "interest": "FTB",
+      "language": "JS"
+    },
+    {
+      "id": 2,
+      "fname": "Rohan",
+      "lname": "Kumar",
+      "uname": "rohan",
+      "email": "rohan@t.com",
+      "password": "12345",
+      "contact": "09787654321",
+      "address": "Aus",
+      "description": "Hi, Rohan. H R U.",
+      "interest": "CRT",
+      "language": "React"
+    }
+  ],
+  "list": [
+    {
+      "name": "Hp Laptop 430",
+      "price": "45,000",
+      "description": "Good Laptop and serv",
+      "quantity": "35",
+      "color": "black, gray",
+      "image": "",
+      "cat_Id": "1",
+      "id": 1
+    },
+    {
+      "name": "Dell Laptop x305",
+      "price": "67,00",
+      "description": "Dell laptop.",
+      "quantity": "21",
+      "color": "black, gray, green",
+      "image": "",
+      "cat_Id": "1",
+      "id": 2
+    },
+    {
+      "name": "samsung  ZPro21",
+      "price": "56,000",
+      "description": "good phone of samsung  ZPro21",
+      "quantity": "21",
+      "color": "green, blue, red",
+      "image": "",
+      "cat_Id": "5",
+      "id": 4
+    },
+    {
+      "name": "titan watch",
+      "price": "26,000",
+      "description": "good of Apple",
+      "quantity": "12",
+      "color": "red, green",
+      "image": "",
+      "cat_Id": "4",
+      "id": 5
+    },
+    {
+      "name": "Apple xr45",
+      "price": "78,000",
+      "description": "Good phone of Apple xp8.",
+      "quantity": "21",
+      "color": "blue, orange",
+      "image": "",
+      "cat_Id": "5",
+      "id": 6
+    },
+    {
+      "name": "titan watch",
+      "price": "6700",
+      "description": "Good watch.",
+      "quantity": "13",
+      "color": "blue, green",
+      "image": "",
+      "cat_Id": "4",
+      "id": 7
+    },
+    {
+      "name": "Samsung TV",
+      "price": "67800",
+      "description": "Good TV",
+      "quantity": "36",
+      "color": "gray, black",
+      "image": "",
+      "cat_Id": "3",
+      "id": 8
+    },
+    {
+      "name": "LG TV",
+      "price": "646346",
+      "description": "good tv",
+      "quantity": "25",
+      "color": "black, gray",
+      "image": "",
+      "cat_Id": "3",
+      "id": 9
+    },
+    {
+      "name": "Sony Camera",
+      "price": "53,00",
+      "description": "good camera",
+      "quantity": "18",
+      "color": "black, gray",
+      "image": "",
+      "cat_Id": "2",
+      "id": 11
+    },
+    {
+      "name": "Vivo kx8",
+      "price": "22,000",
+      "description": "godd phone",
+      "quantity": "23",
+      "color": "gradiant, red",
+      "image": "",
+      "cat_Id": "5",
+      "id": 12
+    },
+    {
+      "name": "sonta watch",
+      "price": "17000",
+      "description": "good watch",
+      "quantity": "8",
+      "color": "gray, black",
+      "image": "",
+      "cat_Id": "4",
+      "id": 13
+    },
+    {
+      "name": "Oppo x20",
+      "price": "26000",
+      "description": "Goog phone",
+      "quantity": "18",
+      "color": "red, blue",
+      "image": "",
+      "cat_Id": "5",
+      "id": 14
+    }
+  ],
+  "cat": [
+    {
+      "name": "Laptop",
+      "id": 1
+    },
+    {
+      "name": "Camera",
+      "id": 2
+    },
+    {
+      "name": "TV",
+      "id": 3
+    },
+    {
+      "name": "watch",
+      "id": 4
+    },
+    {
+      "name": "Phone",
+      "id": 5
+    }
+  ],
+  "brand": [
+    {
+      "name": "dell",
+      "id": 1
+    },
+    {
+      "name": "hp",
+      "id": 2
+    },
+    {
+      "name": "Titon",
+      "id": 3
+    },
+    {
+      "name": "Apple",
+      "id": 4
+    },
+    {
+      "name": "Samsung",
+      "id": 5
+    }
+  ]
+}

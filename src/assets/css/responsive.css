@@ -1,0 +1,29 @@
+/* Media query start for this project */
+
+@media (max-width:1200px){
+
+}
+
+@media (max-width:991px){
+
+}
+
+@media (max-width:767px){
+  .navbar-toggler-icon{
+    background-image: none !important;
+    padding-top: 5px;
+    color: red;
+  }
+  button.navbar-toggler{
+    border-color: green !important;
+  }
+  button.navbar-toggler:focus{
+    outline: 0 !important;
+  }
+
+
+}
+
+@media (max-width:575px){
+
+}

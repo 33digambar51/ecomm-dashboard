@@ -1,0 +1,201 @@
+header .logo img{width: 100px; height: 50px;}
+header .navbar-dark .navbar-nav .nav-link{color: rgba(255,255,255,0.6);}
+header .navbar-dark .navbar-nav .nav-link:hover{color: rgba(255,255,255,1);}
+header li.active a{
+    /* background-color: red; */
+    color: rgba(255,255,255,1) !important;
+  }
+.user-image img{
+    width: 170px;
+    height: 170px;
+  }
+.card-box{
+    box-shadow: 3px 3px 20px rgb(0 0 0 / 15%);
+    padding: 30px 20px;
+}
+.fsocial {
+    position: relative;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.fsocial::before {
+    content: "";
+    position: absolute;
+    height: 1px;
+    width: 100%;
+    background: #6b6969;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+.fsocial span {
+    position: relative;
+    background: #343a40;
+    padding: 0 30px;
+}
+.fsocial a {
+    color: #fff;
+    display: inline-block;
+    padding: 0 10px;
+}
+footer p{font-size: 10px;}
+
+
+/* Admin Style start */
+
+/*font-family start*/
+h1, h2, h3, h4, h5{font-family: 'Cabin', sans-serif;}
+/*font-family End*/
+
+/*commone style start*/
+.shadoew{box-shadow: 0 1px 3px 0px rgba(0, 0, 0, 0.2);}
+.btn:hover{box-shadow: 0 .5rem 1rem rgba(0,0,0,.15) !important;}
+.outline{outline: 0 !important;}
+.form-control:focus, .btn:focus, .page-link:focus{box-shadow: none !important;}
+.form-control:focus{border-color: #fb6145;}
+.form-control, .form-group label{font-size: 14px;}
+
+.btn-info:hover, .btn-info:active, .btn-info:focus{background-color: #fb4907 !important; border-color: #fb4907 !important;}
+.btn-danger{background-color: #d9534f; border-color: #d43f3a;}
+
+.btn-danger:hover{background-color: #c9302c; border-color: #ac2925;}
+.btn-light{background-color: #f2f1f0; border-color: #f2f1f0;}
+.btn-light:hover{background-color: #fff; border-color: #fff;}
+
+.badge-danger{background-color: #fb4907;}
+
+.text-dark{color:#333 !important;}
+.text-warning{color:#fdb412 !important;}
+.admin-section p, .admin-section a, admin-section table{font-size:14px;}
+
+/* Dashboard sidebar, header and content style */
+.sidebar-header, .navbar{height: 60px;}
+.navbar{box-shadow: 1px 0 3px rgba(0,0,0,.15); -webkit-box-shadow: 1px 0 3px rgba(0,0,0,.15); z-index: 1050;}
+#sidebar{
+min-width: 200px;
+max-width: 200px;
+/* text-align: center; */
+text-align: left;
+background: #f92d29;
+color: #fff;
+transition: all 0.3s;
+min-height: 100vh;
+z-index: 100;
+}
+/* #sidebar .nav-list a span, #sidebar .sidebar-header{display: none ;} */
+#sidebar .nav-list a span{display: inline-block ;}
+#sidebar .sidebar-header{display: block;}
+/* .intro{display:inline-block !important;} */
+.intro{display:none !important;}
+/* .intros{display:block !important;} */
+.intros{display:none !important;}
+
+#sidebar.actives{
+    min-width: 50px !important;
+    max-width: 50px !important;
+    text-align: left;
+}
+.sidebar-header{background: #fb6145; border-bottom: 1px solid #f92d29;}
+
+#content{
+width: 100%;
+min-height: 100vh;
+transition: all 0.3s;
+background-color:#f8f8f8;
+}
+
+#center-content {
+width: calc(100% - 0px);
+height: calc(100vh - 60px);
+overflow-y: scroll;
+padding: 20px;
+}
+
+footer.admin{background: transparent; padding: 12px; bottom: 0; left:0;}
+header .profile-menu{left: auto; right: -20px; top: 132%; min-width:100px;}
+header .profile-menu a:active, header .profile-menu:focus{color: #333;background-color: transparent;}
+
+#sidebar .logo a{font-size: 24px;transition: all 0.4s ease;line-height: 26px;}
+#sidebar .nav-item {margin-top: 1px; transition: all 0.4s ease;}
+#sidebar .nav-item .nav-link{padding: 12px 15px; outline: 0 !important; transition: all 0.4s ease;}
+#sidebar .nav-item a.active{background-color: #fb6145;}
+#sidebar .nav-item a:hover, #sidebar .nav-list a:focus, #sidebar .nav-list a:active{background-color: #fb6145;}
+/*End Dashboard sidebar, header and content style */
+
+/* Table style start */
+.table .thead-dark th {
+    color: #000;
+    background-color: #fcf8e3;
+    border-color: transparent;
+    border-bottom: 1px solid #ACACAC !important;
+}
+.table td, .table th{border-top: 0;}
+.table-striped tbody tr:nth-of-type(2n+1){background-color: #f3f2f2;}
+/* Table style end */
+/*commone style end*/
+
+#sidebarCollapse{
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  transition: 1s;
+  margin-right: 16px;
+  color: #fdb412;
+  background-color: transparent;
+  border-color: transparent;
+  padding: 0;
+}
+#sidebarCollapse:hover{background: #fdb412; color: #fff;border-radius: 50%;}
+.angledown{
+width: 0;
+height: 0;
+border-left: 10px solid transparent;
+border-right: 10px solid transparent;
+border-bottom: 12px solid #ccc;
+top: -11px;
+left: -1px;
+}
+
+ul.video-menu li a:hover, ul.video-menu li a:active, ul.video-menu li a:focus{background: rgba(253, 180, 18, 0.7) !important;}
+
+
+/* Below Dashboard style only */
+
+#center-content .col-md-3{padding:0 8px;}
+#center-content  .counter_box{box-shadow: 0 1px 3px 0px rgba(0, 0, 0, 0.2);transition: all 0.4s ease;}
+#center-content  .counter_box i{
+    color: #fb6145 !important;
+    width: 66px;
+    height: 130px;
+    text-align: center;
+    line-height: 105px;
+    font-size: 56px;
+}
+#center-content  .counter_box:hover{transform: translateY(-8px);-webkit-transform: translateY(-8px);}
+.link-box{
+    width: 100px;
+    height: 30px;
+    line-height: 28px;
+    background: #ccc;
+    left: 50%;
+    top: 53%;
+    transform: translate(-50%, -53%);
+    padding: 2px 2px;
+}
+.link-box a{font-size: 11px; color:#fff; display:block; outline: 0 !important;}
+.stats{border-top: 1px solid #DDD; padding: 24px;background: #f9f9f9;}
+.stats h5{margin: 10px 0; color: #575757; font-size: 40px;}
+
+.pro_list table th, .pro_list table td{vertical-align: middle;}
+.pro_list .table-bordered {
+    border: 1px solid #dee2e6 !important;
+}
+.a-login{
+    background: #1CD8D2;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #93EDC7, #1CD8D2);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #93EDC7, #1CD8D2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+
+/* Admin Style end */

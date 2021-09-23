@@ -1,0 +1,93 @@
+/* font faimly style Start */
+/* Font faimly Not working inside of style.css. So we will set here always. */
+@font-face {
+  font-family: 'Basis Grotesque Pro';
+    src:local("Basis Grotesque Pro");
+    src: url('./assets/fonts/Basis Grotesque Pro/BasisGrotesquePro-Regular.eot');
+    src: url('./assets/fonts/Basis Grotesque Pro/BasisGrotesquePro-Regular.eot?#iefix') format('embedded-opentype'),
+      /* url('./assets/fonts/Basis Grotesque Pro/BasisGrotesquePro-Regular.woff2') format('woff2'), */
+      url('./assets/fonts/Basis Grotesque Pro/BasisGrotesquePro-Regular.woff') format('woff'),
+      url('./assets/fonts/Basis Grotesque Pro/BasisGrotesquePro-Regular.ttf') format('truetype'),
+      url('./assets/fonts/Basis Grotesque Pro/BasisGrotesquePro-Regular.svg#Avenir-Medium') format('svg');
+  font-weight:700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Recoleta';
+  src:local("Recoleta");
+  src: url('./assets/fonts/Recoleta/Recoleta-Regular.eot');
+  src: url('./assets/fonts/Recoleta/Recoleta-Regular.eot?#iefix') format('embedded-opentype'),
+      /* url('./assets/fonts/Recoleta/Recoleta-Regular.woff2') format('woff2'), */
+      url('./assets/fonts/Recoleta/Recoleta-Regular.woff') format('woff'),
+      url('./assets/fonts/Recoleta/Recoleta-Regular.ttf') format('truetype'),
+      url('./assets/fonts/Recoleta/Recoleta-Regular.svg#Avenir-Medium') format('svg');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* font faimly style End */
+
+body{
+font-family: 'Basis Grotesque Pro' !important;
+} 
+h1,h2,h3{
+  font-family: 'Recoleta';
+}
+
+/* My globle commons style start */
+h1{font-size: 44px;}
+*{margin: 0; padding: 0; box-sizing: border-box;}
+.form-control:focus, .btn:focus {
+  box-shadow: none !important;
+  outline: 0 !important;
+}
+.pull-right{float: right !important;}
+ul{list-style: none;}
+.form-control[disabled], fieldset[disabled] .form-control, .form-check-inline[disabled] {
+  cursor: not-allowed;
+}
+/* Admin Area */
+section.common-c + footer {
+  display: none !important;
+}
+.animateT {
+  -webkit-animation: animatezoom 0.8s;
+  animation: animatezoom 0.8s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)}
+  to {-webkit-transform: scale(1)}
+}
+
+@keyframes animatezoom {
+  from {transform: scale(0)}
+  to {transform: scale(1)}
+}
+.search {
+  width: 300px;
+  position: relative;
+  margin-right: 15px;
+  margin-top: 2px;
+  overflow: hidden;
+}
+.search .search-box{
+  display: none;
+    position: absolute;
+    /* transition: all 0.3s ease-in-out; */
+    transition: width .4s cubic-bezier(0.000, 0.795, 0.000, 1.000);
+}
+section.a-login{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+section.a-login .card-box{
+  width: 600px; max-width: 100%;     
+  background-color: #fff;
+  border-radius: 8px;
+}
+
