@@ -115,7 +115,7 @@ function Register() {
                         }
                     }
                     //console.log("For Loop:", dbemail[i]);
-                    if (email_check(uemail)){
+                    if (email_check()){
                         console.log("fun True")
                         return false;
                     }
