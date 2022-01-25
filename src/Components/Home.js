@@ -57,13 +57,13 @@ function Home() {
                 {/* className "owl-theme" is optional */}
                 <OwlCarousel className='owl-theme' id="owl-slideshow" margin={0} {...options}>
                     <div class='item'>
-                        <img src={"images/img3.jpg"} className="card-img-top" alt="image" />
+                        <img src={"ecomm-dashboard/images/img3.jpg"} className="card-img-top" alt="image" />
                     </div>
                     <div class='item'>
-                        <img src={"images/img2.jpg"} className="card-img-top" alt="image" />
+                        <img src={"ecomm-dashboard/images/img2.jpg"} className="card-img-top" alt="image" />
                     </div>
                     <div class='item'>
-                        <img src={"images/img4.jpg"} className="card-img-top" alt="image" />
+                        <img src={"ecomm-dashboard/images/img4.jpg"} className="card-img-top" alt="image" />
                     </div>
                 </OwlCarousel>
             </section>
@@ -83,7 +83,7 @@ function Home() {
                                     <div className="mb-3">
                                         <div className="card shadow">
                                             {/* <img src={"http://localhost:8000/" + item.file_path} className="card-img-top" alt="image"/> */}
-                                            <img src={"images/img2.jpg"} className="card-img-top" alt="image" />
+                                            <img src={"ecomm-dashboard/images/img2.jpg"} className="card-img-top" alt="image" />
                                             <div className="card-body">
                                                 <h5 className="card-title text-capitalize">{item.name}</h5>
                                                 <h6 className="card-title mb-0">Price: <strong className="text-primary">${item.price}</strong></h6>
