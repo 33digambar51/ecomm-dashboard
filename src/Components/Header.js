@@ -163,7 +163,7 @@ function Header(props) {
                                                         <Link className="nav-link text-capitalize dropdown-toggle text-decoration-none" data-toggle="dropdown">
                                                             {item.uname}
                                                             {/* <img src={"http://localhost:8000/" + item.image} style={{ width: 35, height:35 }} /> */}
-                                                            <img src={"/images/avatar.png"} style={{ width: 35, height: 35 }} alt="u-image" className="ml-2" />
+                                                            <img src={"/ecomm-dashboard/images/avatar.png"} style={{ width: 35, height: 35 }} alt="u-image" className="ml-2" />
                                                         </Link>
                                                         <div className="dropdown-menu mt-n2 shadow">
                                                             <Link to="/" className="dropdown-item"><i class="fa fa-home mr-1"></i>Dashboard</Link>
