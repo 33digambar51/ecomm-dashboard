@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/ecomm-dashboard/static/css/main.76dbe173.chunk.css",
-    "main.js": "/ecomm-dashboard/static/js/main.6b793cfd.chunk.js",
-    "main.js.map": "/ecomm-dashboard/static/js/main.6b793cfd.chunk.js.map",
+    "main.js": "/ecomm-dashboard/static/js/main.c4e99e68.chunk.js",
+    "main.js.map": "/ecomm-dashboard/static/js/main.c4e99e68.chunk.js.map",
     "runtime-main.js": "/ecomm-dashboard/static/js/runtime-main.0ee59703.js",
     "runtime-main.js.map": "/ecomm-dashboard/static/js/runtime-main.0ee59703.js.map",
     "static/css/2.88a80e89.chunk.css": "/ecomm-dashboard/static/css/2.88a80e89.chunk.css",
@@ -23,6 +23,6 @@
     "static/css/2.88a80e89.chunk.css",
     "static/js/2.bf7ff0af.chunk.js",
     "static/css/main.76dbe173.chunk.css",
-    "static/js/main.6b793cfd.chunk.js"
+    "static/js/main.c4e99e68.chunk.js"
   ]
 }
